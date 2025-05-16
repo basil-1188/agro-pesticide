@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,300&family=Source+Code+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Merriweather:ital,wght@0,400;1,300&family=Source+Code+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Merriweather:ital,wght@0,400;1,300&family=Passion+One:wght@900&family=Source+Code+Pro:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif
+
+}
+.carousel-item
+{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+
+}
+.carousel-caption
+{
+    
+    font-family: 'Passion One', cursive;
+}
+.carousel-caption p
+{
+    width: 60%;
+    margin: auto;
+    font-size: 28px;
+}
+.navbar-nav a
+{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.navbar-light .navbar-brand
+{
+    font-size: 75px;
+    color: rgb(67, 13, 13);
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family: 'Kenia', cursive;
+}
+.navbar-light .navbar-nav .nav-link
+{
+    color: brown;
+}
+.navbar-nav
+{
+    text-align: center;
+}
+.nav-link
+{
+    padding: .2rem 1rem;
+}
+.w-100
+{
+    height: 100vh;
+}

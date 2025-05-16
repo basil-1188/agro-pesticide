@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Kenia&family=Merriweather:ital,wght@0,400;1,300&family=Passion+One:wght@900&family=Source+Code+Pro:wght@500&display=swap');
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Abel', sans-serif;
+
+}
+body
+{
+    min-height: 100vh;
+    background: url(green.jpeg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+input
+{
+    background-color: #fff;
+    height: 49px;
+    width: 130px;
+    font-size: 50px;
+    font-weight: bolder;
+
+}
+
+    

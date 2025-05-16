@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,300&family=Source+Code+Pro:wght@500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+body
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+.container
+{
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 15px;
+    background: aqua;
+}
+.container h1
+{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.container form
+{
+    font-size: 20px;
+}
+.container form .form-in
+{
+    margin-bottom: 15px;
+}
+.container form input[type="submit"]
+{
+    margin-top: 15px;
+}
+.container form input
+{
+    width: 320px;
+}
+.container form h6 a
+{
+    text-decoration: none;
+}

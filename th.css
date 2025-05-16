@@ -1,0 +1,68 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input
+{
+    border: none;
+    border-bottom: 2px solid black;
+}
+form
+{
+    box-shadow: 5px 25px 40px rgb(207, 237, 237);
+}
+.no-outline:focus
+{
+    outline: none;
+}
+input:hover
+{
+    width: 280px;
+    color: blue;
+}
+.button
+{
+    border: 2px solid currentColor;
+    border-radius: 2rem;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: 100;
+    overflow: hidden;
+    padding: 1rem 2rem;
+    position: relative;
+    text-decoration: none;
+    transition: .2s transform ease-in-out ;
+    will-change: transform;
+    z-index: 0;
+}
+.button::after
+{
+    background-color: blue;
+    border-radius: 3rem;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-100%,0) rotate(10deg);
+    transform-origin: top left;
+    transition: .2s ease-out;
+    will-change: transform;
+    z-index: -1;
+}
+.button:hover::after
+{
+    transform: translate(0,0);
+}
+.button:hover
+{
+    border: 2px solid transparent;
+    color: rgb(247, 247, 247);
+    transform: scale(1.05);
+    will-change: transform;
+}
